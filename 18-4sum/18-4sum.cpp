@@ -31,20 +31,15 @@ public:
                         while(left<right-1 and nums[right]==nums[right-1])
                             right--;
                         left++;
-                        right--;
-                        
+                        right--;    
                     }
                 }
                  while(j+1<n and nums[j]==nums[j+1])
                         j++;
-                                
-                
-
                 
             }
              while(i+1<n and nums[i]==nums[i+1])
                         i++;
-            
         }
         return res;
     }
