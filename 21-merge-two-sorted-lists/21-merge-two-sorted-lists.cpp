@@ -34,8 +34,7 @@ public:
             {
                 tail->next=a;
                 tail=a;
-                a=a->next;
-                
+                a=a->next;   
             }
             else
             {
@@ -48,8 +47,6 @@ public:
             tail->next=b;
         if(b==NULL)
             tail->next=a;
-        return head;
-            
-        
+        return head;   
     }
 };
