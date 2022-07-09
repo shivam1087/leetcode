@@ -38,9 +38,8 @@ public:
             nums[i]=temp[i-low];
         }
         return cnt;
-    }
-    
-  int  mergesort(vector<int>&nums,int low,int high)
+    }  
+ int  mergesort(vector<int>&nums,int low,int high)
     {
         if(low>=high)
             return 0;
@@ -51,10 +50,7 @@ public:
             inv+=merge(nums,low,mid,high);
         
       return inv;
-    }
-    
-    
-    
+    } 
     int reversePairs(vector<int>& nums) 
     {
        return mergesort(nums,0,nums.size()-1);
