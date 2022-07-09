@@ -6,7 +6,7 @@ public:
         int j=mid+1;
         for(int i=low;i<=mid;i++)
         {
-            while(j<=high and nums[i]>2LL*nums[j])
+            while(j<=high and nums[i]>2ll*nums[j])
             {
                 j++;
                 
