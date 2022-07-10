@@ -10,7 +10,6 @@ class Solution {
 public:
     ListNode *getIntersectionNode(ListNode *head1, ListNode *head2) 
     {
-        
         int c1=0,c2=0;
         ListNode *curr=head1;
         
@@ -43,8 +42,7 @@ public:
                 b=b->next;
                 
             }
-        }
-        
+        }  
         while(a!=NULL)
         {
             if(a==b)
@@ -56,6 +54,5 @@ public:
             
         }
         return NULL;
-        
     }
 };
